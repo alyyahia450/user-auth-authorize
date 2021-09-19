@@ -14,17 +14,28 @@
 
 #I provided postman collection with documented apis (main directory)
 
+    - login** ,register** ,logout **
+    
+    - check if user permitted to do an action **
+    
+    - get all permissions
+    
+    - create role and assign permissions to it (update ,show ,delete ,get all)
+    
+    - create user and assign roles to him **(update ,show , delete ,get all).
+    
+
 #installation:-
     
-    -Run (cp .env.example .env )(copy .env.example content to .env new file) and config your env (databse name ,username ,password ,etc...)
+    - Run (cp .env.example .env )(copy .env.example content to .env new file) and config your env (databse name ,username ,password ,etc...)
     
-    -Run (composer install) to install packages and dependencies
+    - Run (composer install) to install packages and dependencies
     
-    -Run ( php artisan migrate) to migrate database tables
+    - Run ( php artisan migrate) to migrate database tables
     
     -Run (php artisan passport:install --force) to generate Personal access client
     
-    -Run (php artisan db:seed) to seed data to database tables
+    - Run (php artisan db:seed) to seed data to database tables
     
 #login using credentials (email:admin@app.com ,password:123456 ) this seeded user with role admin with (full scopes) access token
 
